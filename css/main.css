@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin-ext');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+#wrapp {
+	width: 50%;
+	height: 500px;
+	margin: 50px auto;
+	border: 1px solid #ccc;
+	position: relative;
+	border-radius: 5px;
+}
+#startBtn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding-right: 60px;
+	padding-left: 60px;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+.container {
+	display: none;
+	padding: 0;
+	margin: 0;
+}
+.circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 22px;
+	background-color: #c9302c;
+}
+h1 {
+	font-size: 22px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: 600;
+}
+h2 {
+	text-align: center;
+	margin-top: 20px;
+}
+h3 {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	font-size: 80px;
+	font-weight: 800;
+}
+#player1Btn, #player2Btn {
+	display: table;
+	margin: 0 auto;
+}
+.player1 {
+	border-right: 1px solid #ccc;
+}
+.player1, .player2 {
+	border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+	float: left;
+	width: 50%;
+	height: 449px;
+}
+.scoreboard {
+	height: 50px;
+	border-bottom: 2px solid #eee;
+}
+#startAgainBtn {
+	display: none;
+	width: 100%;
+	color: #fff;
+	background-color: #f0ad4e;
+	border-color: #eea236;
+}
+#newPlayersBtn {
+	width: 100%;
+	display: none;
+}
+[disabled] {
+  cursor: no-drop;
+  background-color: #f0ad4e !important;
+  border: none;
+}
+[disabled]:hover {
+  background-color: #f0ad4e !important;
+}
